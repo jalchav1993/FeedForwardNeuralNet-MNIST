@@ -13,14 +13,14 @@ class FileHandler:
     b1 = [];
     b2 = [];
     def __init__(self):
-        self.xtest = self.matrixToList("/Users/aex/Desktop/lab1/xtest.txt");
-        self.ytest = self.vectortolist("/Users/aex/Desktop/lab1/ytest.txt");
-        self.w0 = self.csvtolist("/Users/aex/Desktop/lab1/W0.txt");
-        self.w1 = self.csvtolist("/Users/aex/Desktop/lab1/W1.txt");
-        self.w2 = self.csvtolist("/Users/aex/Desktop/lab1/W2.txt");
-        self.b0 = self.vectortolist("/Users/aex/Desktop/lab1/b0.txt");
-        self.b1 = self.vectortolist("/Users/aex/Desktop/lab1/b1.txt");
-        self.b2 = self.vectortolist("/Users/aex/Desktop/lab1/b2.txt");
+        self.xtest = self.matrixToList("../xtest.txt");
+        self.ytest = self.vectortolist("../lab1/ytest.txt");
+        self.w0 = self.csvtolist("../W0.txt");
+        self.w1 = self.csvtolist("../W1.txt");
+        self.w2 = self.csvtolist("..W2.txt");
+        self.b0 = self.vectortolist("..b0.txt");
+        self.b1 = self.vectortolist("..b1.txt");
+        self.b2 = self.vectortolist("..b2.txt");
     def matrixToList(self, fileurl):
         print "reading file" + fileurl;
         listref = [];
